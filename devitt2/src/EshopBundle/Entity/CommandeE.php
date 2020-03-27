@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * CommandeE
  *
- * @ORM\Table(name="commande_e")
+ * @ORM\Table(name="commandes")
  * @ORM\Entity(repositoryClass="EshopBundle\Repository\CommandeERepository")
  */
 class CommandeE
@@ -15,7 +15,7 @@ class CommandeE
     /**
      * @var int
      *
-     * @ORM\Column(name="id", type="integer")
+     * @ORM\Column(name="idCommande", type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */

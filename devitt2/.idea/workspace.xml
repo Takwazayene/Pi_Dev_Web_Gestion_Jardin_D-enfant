@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76f75a7-55f1-4914-adfc-d5deb18d28e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_27_03_2020_11_12_c.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_27_03_2020_11_40_s.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_21_03_2020_13_56_c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_21_03_2020_13_56_c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_21_03_2020_13_56_s.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_21_03_2020_13_56_s.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Entity/CommandeE.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Entity/CommandeE.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +135,7 @@
       <workItem from="1585107690812" duration="12338000" />
       <workItem from="1585120724270" duration="395000" />
       <workItem from="1585121159039" duration="254000" />
-      <workItem from="1585302206451" duration="11431000" />
+      <workItem from="1585302206451" duration="18067000" />
     </task>
     <servers />
   </component>
@@ -185,10 +179,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="199" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1584802052462" />
-    <state x="186" y="10" key="SettingsEditor" timestamp="1585305888029">
+    <state x="186" y="10" key="SettingsEditor" timestamp="1585331565255">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585305888029" />
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585331565255" />
     <state x="209" y="11" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584925027706" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585110420654">
       <screen x="0" y="0" width="1366" height="728" />
