@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b76f75a7-55f1-4914-adfc-d5deb18d28e0" name="Default Changelist" comment="" />
+    <list default="true" id="b76f75a7-55f1-4914-adfc-d5deb18d28e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_27_03_2020_11_12_c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_27_03_2020_11_40_s.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_21_03_2020_13_56_c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_21_03_2020_13_56_c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_21_03_2020_13_56_s.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_21_03_2020_13_56_s.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +22,9 @@
     <execution>
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="bf165f28-45f4-42d2-a5fc-0f7a215da6f8" />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -58,13 +71,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZRHk5X25pQlOsSWH6h6PrK9YEo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -125,6 +141,7 @@
       <workItem from="1585107690812" duration="12338000" />
       <workItem from="1585120724270" duration="395000" />
       <workItem from="1585121159039" duration="254000" />
+      <workItem from="1585302206451" duration="11431000" />
     </task>
     <servers />
   </component>
@@ -136,14 +153,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="538" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1584915812325" />
-    <state x="407" y="256" key="ComposerCompositePathDialog" timestamp="1584795376875">
+    <state x="407" y="256" key="ComposerCompositePathDialog" timestamp="1585303921974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="407" y="256" key="ComposerCompositePathDialog/0.0.1366.728@0.0.1366.728" timestamp="1584795376875" />
-    <state x="462" y="109" key="FileChooserDialogImpl" timestamp="1585120969316">
+    <state x="407" y="256" key="ComposerCompositePathDialog/0.0.1366.728@0.0.1366.728" timestamp="1585303921974" />
+    <state x="545" y="144" key="FileChooserDialogImpl" timestamp="1585305604055">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="462" y="109" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585120969316" />
+    <state x="545" y="144" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585305604055" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585121413323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -168,27 +185,27 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="199" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1584802052462" />
-    <state x="209" y="11" key="SettingsEditor" timestamp="1584925027706">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="186" y="10" key="SettingsEditor" timestamp="1585305888029">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1584795416635" />
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585305888029" />
     <state x="209" y="11" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584925027706" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1585110420654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1585110420654" />
-    <state x="455" y="279" key="SymfonyPathDialog" timestamp="1584795409023">
+    <state x="455" y="279" key="SymfonyPathDialog" timestamp="1585305611769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="455" y="279" key="SymfonyPathDialog/0.0.1366.728@0.0.1366.728" timestamp="1584795409023" />
-    <state x="390" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1585121514484">
+    <state x="455" y="279" key="SymfonyPathDialog/0.0.1366.728@0.0.1366.728" timestamp="1585305611769" />
+    <state x="390" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1585302214493">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585121514484" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1585121246490">
+    <state x="390" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585302214493" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1585305895402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585121246490" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585305895402" />
     <state x="381" y="183" width="756" height="767" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585066217727" />
   </component>
 </project>

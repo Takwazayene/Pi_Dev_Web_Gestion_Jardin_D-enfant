@@ -23,6 +23,7 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new ichhBundle\ichhBundle(),
             new FOS\UserBundle\FOSUserBundle(),
+            new EshopBundle\EshopBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

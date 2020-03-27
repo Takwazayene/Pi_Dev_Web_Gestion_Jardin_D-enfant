@@ -1,3 +1,7 @@
+eshop:
+    resource: "@EshopBundle/Resources/config/routing.yml"
+    prefix:   /
+
 ichh:
     resource: "@ichhBundle/Resources/config/routing.yml"
     prefix:   /
