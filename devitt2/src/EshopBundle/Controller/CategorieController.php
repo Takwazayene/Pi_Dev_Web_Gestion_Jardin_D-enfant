@@ -14,6 +14,12 @@ class CategorieController extends Controller
         $form = $this->createForm(CategorieEType::class,$categ);
         $form->handleRequest($request);
 
-        return $this->render("@Eshop/Categorie/gestionC.html.twig",array('form'=>$form));
+        if($form->isSubmitted() ){
+            $em=$this->getDoctrine()->getManager();
+            $em->persist($categ);
+            $em->flush();
+        }
+
+        return $this->render("@Eshop/Categorie/gestionC.html.twig",array('form'=>$form->createView()));
     }
 }

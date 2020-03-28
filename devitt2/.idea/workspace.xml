@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76f75a7-55f1-4914-adfc-d5deb18d28e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Categorie/gestionC.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Form/CategorieEType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Form/CategorieEType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Controller/CategorieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Controller/CategorieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Categorie/gestionC.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Categorie/gestionC.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,7 @@
       <workItem from="1585120724270" duration="395000" />
       <workItem from="1585121159039" duration="254000" />
       <workItem from="1585302206451" duration="22962000" />
-      <workItem from="1585386896407" duration="4733000" />
+      <workItem from="1585386896407" duration="6092000" />
     </task>
     <servers />
   </component>
