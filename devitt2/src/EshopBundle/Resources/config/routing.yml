@@ -1,3 +1,7 @@
 eshop_homepage:
     path:     /
     defaults: { _controller: EshopBundle:Default:index }
+
+eshop_ajoutCategorie:
+    path:     /ajoutCategorie
+    defaults: { _controller: EshopBundle:Categorie:ajoutCategorie }
