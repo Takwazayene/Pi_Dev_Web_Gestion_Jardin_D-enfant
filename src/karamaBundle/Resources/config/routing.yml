@@ -1,0 +1,3 @@
+karama_homepage:
+    path:     /
+    defaults: { _controller: karamaBundle:Default:index }

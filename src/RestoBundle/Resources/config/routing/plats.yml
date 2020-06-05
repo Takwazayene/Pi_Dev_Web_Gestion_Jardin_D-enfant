@@ -1,0 +1,45 @@
+plats_index:
+    path:     /
+    defaults: { _controller: "RestoBundle:Plats:index" }
+    methods:  GET
+
+plats_indexAdmin:
+    path:     /indexAdmin
+    defaults: { _controller: "RestoBundle:Plats:indexAdmin" }
+    methods:  GET
+
+plats_show:
+    path:     /{id}/show
+    defaults: { _controller: "RestoBundle:Plats:show" }
+    methods:  GET
+
+plats_new:
+    path:     /new
+    defaults: { _controller: "RestoBundle:Plats:new" }
+    methods:  [GET, POST]
+
+plats_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "RestoBundle:Plats:edit" }
+    methods:  [GET, POST]
+
+plats_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "RestoBundle:Plats:delete" }
+    methods:  DELETE
+
+plats_rating:
+    path:     /rating
+    defaults: { _controller: "RestoBundle:Plats:updaterate" }
+
+plats_stat:
+    path:     /stat
+    defaults: { _controller: "RestoBundle:Plat:stat" }
+
+plats_afficherMobile:
+    path:     /AfficherMobile
+    defaults: { _controller: "RestoBundle:Plats:AfficherMobile" }
+
+plats_rateMobile:
+    path:     /RateMobile
+    defaults: { _controller: "RestoBundle:Plats:RateMobile" }

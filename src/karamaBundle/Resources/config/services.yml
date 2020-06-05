@@ -1,0 +1,4 @@
+services:
+#    karama.example:
+#        class: karamaBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

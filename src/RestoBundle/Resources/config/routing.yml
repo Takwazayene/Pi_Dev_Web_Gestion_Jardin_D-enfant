@@ -1,0 +1,47 @@
+resto_abonneresto:
+    resource: "@RestoBundle/Resources/config/routing/abonneresto.yml"
+    prefix:   /abonneresto
+
+resto_homepage:
+    path:     /
+    defaults: { _controller: RestoBundle:Default:index }
+
+show_reservations:
+    path:    /show
+    defaults: { _controller: RestoBundle:abonneresto:showMyReservations }
+
+resto_paiement:
+    resource: "@RestoBundle/Resources/config/routing/paiement.yml"
+    prefix:   /paiement
+
+admin:
+    path:    /adminHome
+    defaults: { _controller: RestoBundle:Default:adminHome }
+
+user:
+    path:    /userHome
+    defaults: { _controller: RestoBundle:Default:userHome }
+
+platss:
+    path:    /platss
+    defaults: { _controller: RestoBundle:abonneresto:plat }
+
+plat:
+    resource: "@RestoBundle/Resources/config/routing/plat.yml"
+    prefix:   /plat
+
+plats:
+    resource: "@RestoBundle/Resources/config/routing/plats.yml"
+    prefix:   /plats
+
+sandbox_pdfexample:
+    path:     /pdf
+    defaults: { _controller: RestoBundle:Default:pdf }
+
+pdf:
+    path:     /mypdf
+    defaults: { _controller: RestoBundle:Default:myPdf }
+
+carte:
+    resource: "@RestoBundle/Resources/config/routing/cartefidelite.yml"
+    prefix:   /carte

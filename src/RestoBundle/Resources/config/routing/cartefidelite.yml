@@ -1,0 +1,38 @@
+cartefidelite_index:
+    path:     /
+    defaults: { _controller: "RestoBundle:cartefidelite:index" }
+    methods:  GET
+
+cartefidelite_indexAdmin:
+    path:     /indexAdmin
+    defaults: { _controller: "RestoBundle:cartefidelite:indexAdmin" }
+    methods:  GET
+
+cartefidelite_show:
+    path:     /{idC}/show
+    defaults: { _controller: "RestoBundle:cartefidelite:show" }
+    methods:  GET
+
+cartefidelite_new:
+    path:     /new
+    defaults: { _controller: "RestoBundle:cartefidelite:new" }
+    methods:  [GET, POST]
+
+cartefidelite_edit:
+    path:     /{idC}/edit
+    defaults: { _controller: "RestoBundle:cartefidelite:edit" }
+    methods:  [GET, POST]
+
+cartefidelite_delete:
+    path:     /{idC}/delete
+    defaults: { _controller: "RestoBundle:cartefidelite:delete" }
+    methods:  DELETE
+
+cartefidelite_transformer:
+    path:     /transformer
+    defaults: { _controller: "RestoBundle:cartefidelite:transformer" }
+
+cartefidelite_show1:
+    path:     /{idC}/abonnements
+    defaults: { _controller: "RestoBundle:cartefidelite:showListeAboAdmin" }
+    methods:  GET

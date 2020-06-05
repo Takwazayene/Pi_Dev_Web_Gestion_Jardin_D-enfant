@@ -1,0 +1,28 @@
+plat_index:
+    path:     /
+    defaults: { _controller: "RestoBundle:Plat:index" }
+    methods:  GET
+
+plat_show:
+    path:     /{id}/show
+    defaults: { _controller: "RestoBundle:Plat:show" }
+    methods:  GET
+
+plat_new:
+    path:     /new
+    defaults: { _controller: "RestoBundle:Plat:new" }
+    methods:  [GET, POST]
+
+plat_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "RestoBundle:Plat:edit" }
+    methods:  [GET, POST]
+
+plat_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "RestoBundle:Plat:delete" }
+    methods:  DELETE
+
+plat_rating:
+    path:     /rating
+    defaults: { _controller: "RestoBundle:Plat:updaterate" }

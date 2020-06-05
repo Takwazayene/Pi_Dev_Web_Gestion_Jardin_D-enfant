@@ -1,0 +1,107 @@
+{% extends 'takwa.html.twig' %}
+{% block title %}Mes reservations{% endblock %}
+
+{% block body %}
+    <br/>
+    <br/>
+    <h1>Ma liste des reservations</h1>
+    {% for message in app.flashes('notice') %}
+        <div class="alert-danger">
+            {{ message }}
+        </div>
+    {% endfor %}
+    <input type="text" id="search" class="form-control" placeholder="Cherchez une reservation ..." style="background-color:{{'#e1d0de'}}">
+    <table  class="table"  id="tableac">
+        <thead>
+
+        <tr>
+
+
+            <th style="color:#875e84;" scope="col">Nom</th>
+            <th style="color:#875e84;" scope="col">Type abonnement</th>
+            <th style="color:#875e84;" scope="col">Type pension</th>
+         {#  <th style="color:#875e84;" scope="col">Etat</th> #}
+            <th style="color:#875e84;" scope="col">Absence</th>
+            <th style="color:#875e84;" scope="col">Date abonnement</th>
+            <th style="color:#875e84;" scope="col">Actions</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for abonneresto in abonneresto %}
+            {% if abonneresto.etat == 1 %}
+                {% set color = '#80c1ff' %}
+            {% elseif abonneresto.etat == 0 %}
+                 {% set color = '#ff8080' %}
+
+            {% endif %}
+            <tr>
+
+
+
+                <td style="background-color:{{color}}">{{ abonneresto.nom }}</td>
+                <td style="background-color:{{color}}">{{ abonneresto.typeAbo }}</td>
+                <td style="background-color:{{color}}">{{ abonneresto.typePension }}</td>
+              {# <td style="background-color:{{color}}">{{ abonneresto.etat }}</td>  #}
+                <td style="background-color:{{color}}">{{ abonneresto.absence }}</td>
+                <td style="background-color:{{color}}">{% if abonneresto.dateAbo %}{{ abonneresto.dateAbo|date('Y-m-d H:i:s') }}{% endif %}</td>
+
+            <td style="background-color:{{color}}">
+                    <ul>
+                        <li>
+                            <a href="{{ path('abonneresto_show', { 'id': abonneresto.id }) }} " style="color:#875e84;" >voir</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('abonneresto_edit', { 'id': abonneresto.id }) }}" style="color:#875e84;">modifier</a>
+                        </li>
+                        <li>
+                            <a href="{{ path('paiement_new', { 'id': abonneresto.id , 'typeAbo': abonneresto.typeAbo, 'typePension': abonneresto.typePension, 'etat': abonneresto.etat }) }}" style="color:#875e84;">payer</a>
+                        </li>
+                    </ul>
+                </td>
+
+            </tr>
+
+
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('abonneresto_new') }}" style="color:#b08ead;"> créer une nouvelle reservation</a>
+        </li>
+    </ul>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#search').keyup(function(){
+                search_table($(this).val());
+            });
+            function search_table(value){
+                $('#tableac tbody tr').each(function(){
+                    var found = 'false';
+                    $(this).each(function(){
+                        if($(this).text().toLowerCase().indexOf(value.toLowerCase()) >= 0)
+                        {
+                            found = 'true';
+                        }
+                    });
+                    if(found == 'true')
+                    {
+                        $(this).show();
+
+                    }
+                    else
+                    {
+                        $(this).hide();
+
+                    }
+                });
+            }
+        });
+    </script>
+
+{% endblock %}
+

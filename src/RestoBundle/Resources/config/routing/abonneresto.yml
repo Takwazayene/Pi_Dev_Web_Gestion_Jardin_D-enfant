@@ -1,0 +1,36 @@
+abonneresto_index:
+    path:     /
+    defaults: { _controller: "RestoBundle:abonneresto:index" }
+    methods:  [GET, POST]
+
+abonneresto_show:
+    path:     /{id}/show
+    defaults: { _controller: "RestoBundle:abonneresto:show" }
+    methods:  GET
+
+abonneresto_new:
+    path:     /new
+    defaults: { _controller: "RestoBundle:abonneresto:new" }
+    methods:  [GET, POST]
+
+abonneresto_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "RestoBundle:abonneresto:edit" }
+    methods:  [GET, POST]
+
+abonneresto_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "RestoBundle:abonneresto:delete" }
+    methods:  DELETE
+
+abonneresto_ajouterMobile:
+    path:     /newMobile
+    defaults: { _controller: "RestoBundle:abonneresto:AjouterMobile" }
+
+abonneresto_afficherMobile:
+    path:     /AfficherMobile
+    defaults: { _controller: "RestoBundle:abonneresto:AfficherMobile" }
+
+abonneresto_rechercherMobile:
+    path:     /RechercherMobile/{nom}
+    defaults: { _controller: "RestoBundle:abonneresto:RechercheMobile" }
