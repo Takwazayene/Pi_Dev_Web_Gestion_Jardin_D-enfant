@@ -1,0 +1,24 @@
+dorsaf_homepage:
+    path:     /
+    defaults: { _controller: DorsafBundle:Default:index }
+all:
+    path:     /club/clubs/all
+    defaults: { _controller: DorsafBundle:Club:all }
+al:
+    path:     /event/events/al
+    defaults: { _controller: DorsafBundle:Event:al }
+find_task:
+    path:     /clubs/find/{id}
+    defaults: { _controller: DorsafBundle:Club:find}
+Ajout:
+    path:     /event/events/Ajout
+    defaults: { _controller: DorsafBundle:Event:Ajout }
+modif:
+    path:     /club/modif
+    defaults: { _controller: DorsafBundle:Club:modif }
+participer:
+    path:     /club/participer/{id}
+    defaults: { _controller: DorsafBundle:Club:participer }
+participa:
+    path:     /event/participa/{id}
+    defaults: { _controller: DorsafBundle:Event:participa }

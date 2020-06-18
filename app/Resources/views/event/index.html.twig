@@ -1,0 +1,75 @@
+{% extends 'AcceuilAdmin.html.twig' %}
+
+{% block body %}
+
+
+
+
+<!-- breadcrumb part end-->
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header card-header-primary">
+                <h4 class="card-title">Event list</h4>
+
+            </div>
+            <div class="card-body">
+
+
+                <div class="row">
+                    <div class="col-md-6 pr-1">
+                        <a class=" btn btn-rbc" href="{{ path('event_calendrier') }}"  ><i class="fa fa-calendar"></i> Afficher le calendrier des events</a>
+                    </div>
+                    <div class="col-md-6 pr-1 pull-right">
+                        <a class=" float-right btn btn-rbc" href="{{ path('admin_map') }}"  ><i class="fa fa-map-marker"></i> Afficher sur Map</a>
+                    </div>
+
+
+
+
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nomevent</th>
+                        <th>Categorieevent</th>
+                        <th>Nbrplacedispo</th>
+                        <th>Dateevent</th>
+                        <th>Description</th>
+                        <th>Addresse</th>
+                        <th>Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for event in events %}
+                        <tr>
+                            <td><a href="{{ path('event_show', { 'id': event.id }) }}">{{ event.id }}</a></td>
+                            <td>{{ event.nomEvent }}</td>
+                            <td>{{ event.categorieEvent }}</td>
+                            <td>{{ event.nbrPlaceDispo }}</td>
+                            <td>{{  event.dateEvent |date('d-m-Y ')}}</td>
+                            <td>{{ event.description }}</td>
+                            <td>{{ event.adresse }}</td>
+                            <td>
+
+                                        <a class="btn btn-round btn-secondary" href="{{ path('event_show', { 'id': event.id }) }}">show</a>
+
+
+                                        <a class="btn btn-round btn-primary" href="{{ path('event_edit', { 'id': event.id }) }}">edit</a>
+
+                                <a class="btn btn-round btn-danger" href="{{ path('event_delete', { 'id': event.id }) }}">delete</a>
+
+
+
+                            </td>
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+
+
+
+                        <a class="btn btn-success btn-lg"   href="{{ path('event_new') }}">Create a new event</a>
+                </div></div></div></div></div>
+                {% endblock %}

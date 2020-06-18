@@ -1,0 +1,77 @@
+{% extends 'AcceuilAdmin.html.twig' %}
+
+{% block body %}
+
+    <!-- breadcrumb part end-->
+
+    <div class="container " style="margin-top:100px;">
+    <div class="col-md-8  align-content-center row">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2>Event</h2></div> <div class="clearfix"></div>
+
+        <div  class="x_content">
+    <table class="table align-content-center" >
+        <tbody>
+
+        <tr>
+            <th><label class="control-label col-md-3 col-sm-3 col-xs-3">le Nom de l'évenement</label></th>
+            <td>{{ event.nomEvent }}</td>
+        </tr>
+        <tr>
+            <th><label class="control-label col-md-3 col-sm-3 col-xs-3">Categorie</label></th>
+            <td>{{ event.categorieEvent }}</td>
+        </tr>
+        <tr>
+            <th><label class="control-label col-md-3 col-sm-3 col-xs-3">nombre de place disponible</label></th>
+            <td>{{ event.nbrPlaceDispo }}</td>
+        </tr>
+        <tr>
+            <th><label class="control-label col-md-3 col-sm-3 col-xs-3">Date</label></th>
+            <td>{{ event.dateEvent|date('d-M-y') }}</td>
+        </tr>
+        <tr>
+            <th><label class="control-label col-md-3 col-sm-3 col-xs-3">Description</label></th>
+            <td>{{ event.description }}</td>
+        </tr>
+        <tr>
+            <th><label class="control-label col-md-3 col-sm-3 col-xs-3">Addresse</label></th>
+            <td>{{ event.adresse }}</td>
+        </tr>
+        <tr>
+
+            <td><a class="btn btn-primary" href="{{ path('admin_map', {id: event.id}) }}">View on map</a></td>
+        </tr>
+
+        </tbody>
+    </table>
+
+    </div>
+
+        <div class="text-center ">
+            <ul class="row">
+
+                <li>
+                    <a class="btn btn-secondary btn-lg" href="{{ path('event_index') }}">Back to the list</a>
+                </li>
+
+
+
+            </ul>
+        </div>
+
+    </div>
+    </div>
+
+
+</div>
+
+
+
+
+    <br>
+
+
+
+
+{% endblock %}

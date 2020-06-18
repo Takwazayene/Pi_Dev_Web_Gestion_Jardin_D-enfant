@@ -1,0 +1,89 @@
+{% extends 'AcceuilAdmin.html.twig' %}
+
+{% block body %}
+
+
+    <div class="col-md-12">
+        <div class="x_panel">
+            <div class="x_title">
+                <h1>Event Edit</h1>
+            </div>
+            <div class="x_content">
+
+                {{ form_start(edit_form) }}
+                <div class="form-group row ">
+                    <label class="control-label col-md-3 col-sm-3 ">nom evenement</label>
+                    <div class="col-md-9 col-sm-9 ">
+                        {{ form_widget(edit_form.nomEvent,{ 'attr': {'placeholder': 'nom evenement','class': 'form-control'} }) }}
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="control-label col-md-3 col-sm-3 ">catégorie evenement</label>
+                    <div class="col-md-9 col-sm-9 ">
+                        {{ form_widget(edit_form.categorieEvent,{ 'attr': {'placeholder': 'catégorie evenement','class': 'form-control'} }) }}
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="control-label col-md-3 col-sm-3 ">nombre de place disponible</label>
+                    <div class="col-md-9 col-sm-9 ">
+                        {{ form_widget(edit_form.nbrPlaceDispo,{ 'attr': {'placeholder': 'nombre de place disponible','class': 'form-control'} }) }}
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="control-label col-md-3 col-sm-3 ">date de l'evenement</label>
+                    <div class="col-md-9 col-sm-9 ">
+                        {{ form_widget(edit_form.dateEvent,{ 'attr': {'placeholder': 'date de l\'evenement','class': 'form-control'} }) }}
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="control-label col-md-3 col-sm-3 ">addresse de l'evenement</label>
+                    <div class="col-md-9 col-sm-9 ">
+
+                        {{ form_widget(edit_form.adresse,{ 'attr': {'placeholder': 'addresse de l\'evenement','class': 'form-control'} }) }}
+                    </div></div>
+
+                <div class="form-group row">
+                    <label class="control-label col-md-3 col-sm-3 ">description de l'evenement</label>
+                    <div class="col-md-9 col-sm-9 ">
+                        {{ form_widget(edit_form.description,{ 'attr': {'placeholder': 'description de l\'evenement','class': 'form-control'} }) }}
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-md-9 col-sm-9  offset-md-3">
+                        <button type="reset" class="btn btn-primary">Reset</button>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                        {{ form_start(delete_form) }}
+                        <input class="btn btn-danger" type="submit" value="Delete">
+                        {{ form_end(delete_form) }}
+
+                    </div>
+                </div>
+
+                {{ form_end(edit_form) }}
+                <br>
+                <div class="row">
+                    <a  class="genric-btn primary circle" href="{{ path('event_index') }}">Back to the list</a>
+
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+{% endblock %}

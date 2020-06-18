@@ -1,0 +1,82 @@
+{% extends 'base1.html.twig' %}
+{% block head %}
+    <script src="{{ asset('jquery-min.js') }}"></script>
+    <script src="{{ asset('rating.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ asset('rating.css') }}" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+{% endblock %}
+
+{% block body %}
+    <section class="breadcrumb_part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb_iner">
+                        <h2>Espace club</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- breadcrumb part end-->
+
+
+    <div class="container" style="margin-top:100px;">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header card-header-primary">
+                    <h4 class="card-title">Clubs</h4>
+
+                </div>
+                <div class="card-body justify-content-center">
+                    <h3 class="tile">Clubs</h3>
+
+                    <table class="table align-content-center" >
+                        <tbody>
+                        <tr>
+
+                            <th>Id</th>
+                            <td>{{ club.id }}</td>
+                        </tr>
+                        <tr>
+                            <th>Nomclub</th>
+                            <td>{{ club.nomClub }}</td>
+                        </tr>
+                        <tr>
+                            <th>Activiteclub</th>
+                            <td>{{ club.activiteClub }}</td>
+                        </tr>
+                        <tr>
+                            <th>Effectif</th>
+                            <td>{{ club.effectif }}</td>
+                        </tr>
+                        {% if msg is defined %}
+                            <tr><td><h5>{{ msg }}</h5></td></tr>
+                        {% endif %}
+                        </tbody>
+                    </table>
+
+
+
+
+                    <div class="card-footer">
+                        <div class="text-center ">
+                            <ul class="row">
+                                {% if club.effectif>0 %}
+                                    <li><a class="genric-btn primary circle"  href="{{ path('club_participate', {id: club.id}) }}">Participer</a></li>
+                                {% endif %}
+                                <li>
+                                    <a class="genric-btn primary circle" href="{{ path('club_ind') }}">Back to the list</a>
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                </div></div></div></div>
+{% endblock %}
+
