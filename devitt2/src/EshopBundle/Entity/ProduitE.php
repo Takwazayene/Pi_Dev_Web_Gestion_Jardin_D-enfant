@@ -3,6 +3,7 @@
 namespace EshopBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
 
 /**
  * ProduitE
@@ -15,10 +16,11 @@ class ProduitE
     /**
      * @var int
      *
-     * @ORM\Column(name="id", type="integer")
+     * @ORM\Column(name="idProduit", type="integer")
      * @ORM\Id
      * @ORM\GeneratedValue(strategy="AUTO")
      */
+
     private $id;
 
     /**
@@ -53,7 +55,7 @@ class ProduitE
     /**
      * @var double
      *
-     * @ORM\Column(name="prix", type="double")
+     * @ORM\Column(name="prix", type="float")
      */
     private $prix;
 
@@ -63,7 +65,6 @@ class ProduitE
      * @ORM\Column(name="date_ajout", type="date")
      */
     private $date_ajout;
-
 
 
 
@@ -142,7 +143,6 @@ class ProduitE
     public function setDescription($description)
     {
         $this->description = $description;
-
         return $this;
     }
 
@@ -155,5 +155,76 @@ class ProduitE
     {
         return $this->description;
     }
+
+    /**
+     * @return string
+     */
+    public function getImg()
+    {
+        return $this->img;
+    }
+
+    /**
+     * Set img
+     *
+     * @param string $img
+     *
+     * @return ProduitE
+     */
+    public function setImg($img)
+    {
+        $this->img = $img;
+
+        return $this;
+    }
+
+    /**
+     * @return float
+     */
+    public function getPrix()
+    {
+        return $this->prix;
+    }
+
+    /**
+     * @return \date
+     */
+    public function getDateAjout()
+    {
+        return $this->date_ajout;
+    }
+
+    /**
+     * @param float $prix
+     */
+    public function setPrix($prix)
+    {
+        $this->prix = $prix;
+    }
+
+    /**
+     * @param mixed $idCategorie
+     */
+    public function setIdCategorie($idCategorie)
+    {
+        $this->idCategorie = $idCategorie;
+    }
+
+
+
+    /**
+     * @return mixed
+     */
+    public function getIdCategorie()
+    {
+        return $this->idCategorie;
+    }
+
+    public function __toString()
+    {
+        return  strval($this->id);
+
+    }
+
 }
 

@@ -5,3 +5,63 @@ eshop_homepage:
 eshop_ajoutCategorie:
     path:     /ajoutCategorie
     defaults: { _controller: EshopBundle:Categorie:ajoutCategorie }
+
+eshop_ajoutProduit:
+    path:     /ajoutProduit
+    defaults: { _controller: EshopBundle:Produit:ajoutProduit }
+
+
+eshop_afficherProduit:
+    path : /afficherP
+    defaults: { _controller: EshopBundle:Produit:afficherProduit }
+
+
+eshop_afficherUnSeulProduit:
+    path : /afficherSP/{id}
+    defaults: { _controller: EshopBundle:Produit:afficherUnSeulProduit }
+
+
+shop_addtopanier:
+    path:     /panier/{id}
+    defaults: { _controller: EshopBundle:LigneCommande:ajouterUneLigne }
+
+
+eshop_voirpanier:
+    path: /monpanier
+    defaults: { _controller: EshopBundle:Default:voirPanier}
+
+eshop_checkout:
+    path: /checkout/{id}
+    defaults : { _controller: EshopBundle:CommandeE:ProccedToCheckout}
+
+eshop_manageProducts:
+    path: /Myproducts
+    defaults : { _controller: EshopBundle:Produit:getPanel}
+
+eshop_deleteProd:
+    path:     /admin/DeleteProd/{id}
+    defaults: { _controller: EshopBundle:Produit:salam}
+
+eshop_deleteCateg:
+    path:     /admin/DeleteCateg/{id}
+    defaults: { _controller: EshopBundle:Categorie:Hello }
+
+
+eshop_updateProd:
+    path: /updateProd/{id}
+    defaults: {  _controller: EshopBundle:Produit:UpdateProd}
+
+
+eshop_deleteLigneCmd:
+    path: /dlt/ligne{id}
+    defaults: {  _controller: EshopBundle:LigneCommande:deleteLigne }
+
+eshop_accueilShop:
+    path: /indexShop
+    defaults: { _controller: EshopBundle:Produit:getAccueil}
+
+
+stat:
+    path:     /stat
+    defaults: { _controller: EshopBundle:Produit:stat }
+    methods:  [GET, POST]

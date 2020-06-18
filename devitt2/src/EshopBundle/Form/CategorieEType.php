@@ -15,7 +15,8 @@ class CategorieEType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder->add('label')
-                ->add('Ajouter Une Catégorie',SubmitType::class);
+                ->add("add",SubmitType::class,array('label' => 'Enregistrer'));
+
     }/**
      * {@inheritdoc}
      */

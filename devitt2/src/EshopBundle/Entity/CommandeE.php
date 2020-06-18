@@ -1,12 +1,11 @@
 <?php
 
 namespace EshopBundle\Entity;
-
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Mapping\ManyToOne;
 
 /**
  * CommandeE
- *
  * @ORM\Table(name="commandes")
  * @ORM\Entity(repositoryClass="EshopBundle\Repository\CommandeERepository")
  */
@@ -21,40 +20,44 @@ class CommandeE
      */
     private $id;
 
+
     /**
      * @var int
      *
      * @ORM\Column(name="idUser", type="integer")
      */
+
     private $idUser;
 
     /**
-     * @var \DateTime
+     * @var \date
      *
-     * @ORM\Column(name="dateCommande", type="datetime")
+     * @ORM\Column(name="dateCommande", type="date")
      */
     private $dateCommande;
 
     /**
-     * @var \DateTime
-     *
-     * @ORM\Column(name="dateLivraison", type="datetime")
+     * @var \Date
      */
     private $dateLivraison;
 
     /**
-     * @var int
-     *
-     * @ORM\Column(name="prixTotal", type="integer")
+     * @var float
+     * @ORM\Column(name="prixTotal", type="float")
+
      */
     private $prixTotal;
 
     /**
      * @var bool
-     *
-     * @ORM\Column(name="etatCommande", type="boolean")
      */
     private $etatCommande;
+
+    /**
+     * @var int
+     */
+    private $idPanier;
+
 
 
     /**
@@ -66,6 +69,15 @@ class CommandeE
     {
         return $this->id;
     }
+
+    /**
+     * @param int $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
 
     /**
      * Set idUser
@@ -142,7 +154,7 @@ class CommandeE
     /**
      * Set prixTotal
      *
-     * @param integer $prixTotal
+     * @param float $prixTotal
      *
      * @return CommandeE
      */
@@ -156,7 +168,7 @@ class CommandeE
     /**
      * Get prixTotal
      *
-     * @return int
+     * @return float
      */
     public function getPrixTotal()
     {
@@ -185,6 +197,30 @@ class CommandeE
     public function getEtatCommande()
     {
         return $this->etatCommande;
+    }
+
+    /**
+     * Set idPanier
+     *
+     * @param integer $idPanier
+     *
+     * @return CommandeE
+     */
+    public function setIdPanier($idPanier)
+    {
+        $this->idPanier = $idPanier;
+
+        return $this;
+    }
+
+    /**
+     * Get idPanier
+     *
+     * @return int
+     */
+    public function getIdPanier()
+    {
+        return $this->idPanier;
     }
 }
 

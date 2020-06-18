@@ -2,7 +2,14 @@
 # https://symfony.com/doc/current/service_container.html
 parameters:
     #parameter_name: value
-
+    app.path.product_images: /uploads/images/products
+# config/packages/vich_uploader.yaml
+vich_uploader:
+    # ...
+    mappings:
+        product_images:
+            uri_prefix:         '%app.path.product_images%'
+            upload_destination: '%kernel.project_dir%/public%app.path.product_images%'
 services:
     # default configuration for services in *this* file
     _defaults:

@@ -1,7 +1,6 @@
 <?php
 
 namespace EshopBundle\Repository;
-
 /**
  * CommandeERepository
  *
@@ -10,4 +9,13 @@ namespace EshopBundle\Repository;
  */
 class CommandeERepository extends \Doctrine\ORM\EntityRepository
 {
+    public function lastID()
+    {
+        return $this->getEntityManager()
+            ->createQuery(
+                'SELECT p 
+                FROM EshopBundle:CommandeE p ORDER BY p.id DESC '
+                )
+            ->setMaxResults(1)->getResult();
+    }
 }

@@ -28,6 +28,14 @@ class CategorieE
      */
     private $label;
 
+    /**
+     * @return int
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
 
     /**
      * Get id
@@ -62,5 +70,13 @@ class CategorieE
     {
         return $this->label;
     }
+
+    public function __toString()
+    {
+        return  strval($this->id);
+
+    }
+
+
 }
 

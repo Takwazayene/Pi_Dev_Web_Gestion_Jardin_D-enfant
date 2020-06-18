@@ -2,9 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b76f75a7-55f1-4914-adfc-d5deb18d28e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Controller/CommandeEController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Controller/LigneCommandeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Controller/ProduitController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Entity/LigneCommandeE.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Form/ProduitEType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Repository/LigneCommandeERepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Repository/testERepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Produit/ProduitPanel.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Produit/accueilShop.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Produit/afficherP.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Produit/afficherSP.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Produit/ajoutP.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Produit/checkout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Produit/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Produit/editprod.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Produit/panier.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Produit/stat.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Tests/Controller/CommandeEControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Tests/Controller/LigneCommandeControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Tests/Controller/LigneCommandeEControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Tests/Controller/ProduitControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EshopBundle/Tests/Controller/ProduitEControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EspritApiBundle/Controller/DefaultController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EspritApiBundle/EspritApiBundle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EspritApiBundle/Resources/config/routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EspritApiBundle/Resources/config/services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EspritApiBundle/Resources/views/Default/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/EspritApiBundle/Controller/DefaultControllerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/formProd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/uploadfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/devit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/AppKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/AppKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/base1.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/app/Resources/views/base1.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EshopBundle/Controller/CategorieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Controller/CategorieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Entity/CategorieE.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Entity/CategorieE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Entity/CommandeE.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Entity/CommandeE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Entity/ProduitE.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Entity/ProduitE.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Form/CategorieEType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Form/CategorieEType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Repository/CategorieERepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Repository/CategorieERepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Repository/CommandeERepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Repository/CommandeERepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Repository/ProduitERepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Repository/ProduitERepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EshopBundle/Resources/config/routing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/config/routing.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Categorie/gestionC.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/EshopBundle/Resources/views/Categorie/gestionC.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/product_list_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/product_list_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/product_list_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/product_list_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/product_list_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/product_list_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/product_list_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/product_list_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/product_list_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/product_list_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/img/product/single_product.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +79,29 @@
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="bf165f28-45f4-42d2-a5fc-0f7a215da6f8" />
     </execution>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/mohamed-amine-melliti/Pi_Dev_Web.git" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -61,7 +144,13 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/common" />
       <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/jms/metadata" />
+      <path value="$PROJECT_DIR$/vendor/vich/uploader-bundle" />
       <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/vendor/ob/highcharts-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ZRHk5X25pQlOsSWH6h6PrK9YEo" />
@@ -83,15 +172,19 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\devitt2\app\Resources\views" />
-      <recent name="C:\wamp64\www\devitt2\app\Resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\devit\src\ichhBundle\Controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Melliti\Desktop\GitPIDEVWEB\devitt2\src" />
+      <recent name="C:\Users\Melliti\Desktop\GitPIDEVWEB\devitt2\web\js" />
+      <recent name="C:\Users\Melliti\Desktop\GitPIDEVWEB\devitt2\web\css" />
+      <recent name="C:\wamp64\www\devitt2\app\Resources\views" />
+      <recent name="C:\wamp64\www\devitt2\app\Resources" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -136,26 +229,141 @@
       <workItem from="1585120724270" duration="395000" />
       <workItem from="1585121159039" duration="254000" />
       <workItem from="1585302206451" duration="22962000" />
-      <workItem from="1585386896407" duration="6092000" />
+      <workItem from="1585386896407" duration="16697000" />
+      <workItem from="1585471686807" duration="3531000" />
+      <workItem from="1585508781323" duration="1285000" />
+      <workItem from="1585512840370" duration="2107000" />
+      <workItem from="1585562633495" duration="11957000" />
+      <workItem from="1585642335291" duration="2641000" />
+      <workItem from="1585657550388" duration="3984000" />
+      <workItem from="1585679035338" duration="237000" />
+      <workItem from="1585699604751" duration="1783000" />
+      <workItem from="1585727872096" duration="7658000" />
+      <workItem from="1585769958740" duration="5266000" />
+      <workItem from="1585815170133" duration="3147000" />
+      <workItem from="1585845520763" duration="1206000" />
+      <workItem from="1585900941425" duration="12428000" />
+      <workItem from="1585949533915" duration="2864000" />
+      <workItem from="1585989437849" duration="11442000" />
+      <workItem from="1586006094304" duration="20355000" />
+      <workItem from="1586086036208" duration="1913000" />
+      <workItem from="1586095970047" duration="1215000" />
+      <workItem from="1586104494992" duration="2301000" />
+      <workItem from="1586110722176" duration="265000" />
+      <workItem from="1586111007176" duration="7401000" />
+      <workItem from="1586133813521" duration="619000" />
+      <workItem from="1586161007257" duration="10050000" />
+      <workItem from="1586220166257" duration="589000" />
+      <workItem from="1586245286529" duration="2354000" />
+      <workItem from="1586254769594" duration="6513000" />
+      <workItem from="1586334353535" duration="4311000" />
+      <workItem from="1586349110087" duration="1579000" />
+      <workItem from="1586350803537" duration="3254000" />
+      <workItem from="1586376177921" duration="8276000" />
+      <workItem from="1586429100265" duration="3969000" />
+      <workItem from="1586435448921" duration="14132000" />
+      <workItem from="1586505440298" duration="3088000" />
+      <workItem from="1586534431174" duration="3506000" />
+      <workItem from="1586593343577" duration="16449000" />
+      <workItem from="1586682171513" duration="20119000" />
+      <workItem from="1586765156033" duration="2144000" />
+      <workItem from="1586887976721" duration="8913000" />
+      <workItem from="1587551456675" duration="537000" />
+      <workItem from="1588002397492" duration="7602000" />
+      <workItem from="1588072437404" duration="11887000" />
+      <workItem from="1588150939950" duration="7681000" />
+      <workItem from="1588181468265" duration="1769000" />
+      <workItem from="1588343077517" duration="8328000" />
+      <workItem from="1589596204992" duration="2284000" />
+      <workItem from="1589921146061" duration="6163000" />
+      <workItem from="1589937255279" duration="12544000" />
+      <workItem from="1590022094227" duration="16372000" />
+      <workItem from="1590108584692" duration="3355000" />
+      <workItem from="1590167188680" duration="1465000" />
+      <workItem from="1590170776592" duration="12674000" />
+      <workItem from="1590194698532" duration="6429000" />
+      <workItem from="1590299290741" duration="24385000" />
+      <workItem from="1590473975335" duration="33548000" />
+      <workItem from="1590646020108" duration="27302000" />
+      <workItem from="1590734276276" duration="3556000" />
+      <workItem from="1590769924745" duration="4077000" />
+      <workItem from="1590831815971" duration="18973000" />
+      <workItem from="1590908159820" duration="11581000" />
+      <workItem from="1590970571029" duration="4534000" />
+      <workItem from="1590977380453" duration="3125000" />
+      <workItem from="1590987105201" duration="1862000" />
+      <workItem from="1591014738981" duration="6340000" />
+      <workItem from="1591065728395" duration="30539000" />
+      <workItem from="1591211767786" duration="16757000" />
+      <workItem from="1591326639004" duration="14783000" />
+      <workItem from="1591348143624" duration="15343000" />
+      <workItem from="1591420421906" duration="12890000" />
+      <workItem from="1591543127669" duration="2924000" />
+      <workItem from="1591600120625" duration="20337000" />
+      <workItem from="1591686159108" duration="19548000" />
+      <workItem from="1591855642166" duration="5283000" />
+      <workItem from="1591945112570" duration="11648000" />
+      <workItem from="1592033435950" duration="41531000" />
+      <workItem from="1592204104901" duration="25553000" />
+      <workItem from="1592290089649" duration="2788000" />
+      <workItem from="1592294636275" duration="32329000" />
+      <workItem from="1592376805012" duration="18007000" />
+      <workItem from="1592417810142" duration="1454000" />
+      <workItem from="1592420164578" duration="2102000" />
+      <workItem from="1592422533380" duration="12468000" />
+      <workItem from="1592465966915" duration="9016000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#SQL_Dialects" timestamp="1586354304032">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1586354304032" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591519681093">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591519681093" />
     <state x="538" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584915812325">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="538" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1584915812325" />
+    <state x="953" y="7" key="#com.intellij.ide.util.MemberChooser" timestamp="1592177323528">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="953" y="7" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1592177323528" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592173552561">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592173552561" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586008247541">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586008247541" />
     <state x="407" y="256" key="ComposerCompositePathDialog" timestamp="1585303921974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="407" y="256" key="ComposerCompositePathDialog/0.0.1366.728@0.0.1366.728" timestamp="1585303921974" />
-    <state x="545" y="144" key="FileChooserDialogImpl" timestamp="1585305604055">
+    <state x="545" y="144" key="FileChooserDialogImpl" timestamp="1592428648276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="545" y="144" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585305604055" />
+    <state x="545" y="144" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592428648276" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1585121413323">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -180,27 +388,47 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="457" y="199" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1584802052462" />
-    <state x="186" y="10" key="SettingsEditor" timestamp="1585331565255">
+    <state x="186" y="10" key="SettingsEditor" timestamp="1585774757263">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585331565255" />
+    <state x="186" y="10" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585774757263" />
     <state x="209" y="11" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584925027706" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1585110420654">
+    <state x="404" y="105" width="570" height="524" key="StructurePopup" timestamp="1591255554117">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1585110420654" />
+    <state x="404" y="105" width="570" height="524" key="StructurePopup/0.0.1366.728@0.0.1366.728" timestamp="1591255554117" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1591648966516">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1591648966516" />
     <state x="455" y="279" key="SymfonyPathDialog" timestamp="1585305611769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="455" y="279" key="SymfonyPathDialog/0.0.1366.728@0.0.1366.728" timestamp="1585305611769" />
-    <state x="390" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1585387720143">
+    <state x="390" y="192" key="com.intellij.ide.util.TipDialog" timestamp="1592422537733">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585387720143" />
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1585305895402">
+    <state x="390" y="192" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1592422537733" />
+    <state x="339" y="13" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590979709939">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1585305895402" />
+    <state x="339" y="13" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1590979709939" />
+    <state x="38" y="0" width="870" height="533" key="dock-window-1" timestamp="1590496923848">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="38" y="0" width="870" height="533" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1590496923848" />
+    <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1586713887503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1586713887503" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1592383527419">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1592383527419" />
     <state x="381" y="183" width="756" height="767" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585066217727" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591331953614">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591331953614" />
   </component>
 </project>

@@ -10,4 +10,15 @@ namespace EshopBundle\Repository;
  */
 class CategorieERepository extends \Doctrine\ORM\EntityRepository
 {
+    public function countProductsThatBelongsToThisCategory($val)
+    {
+        $arr=$this->getEntityManager()
+            ->createQuery(
+                ' SELECT count(a.id) FROM  EshopBundle:Produit a '
+            )
+            ->getSingleScalarResult();
+
+
+        return $arr;
+    }
 }

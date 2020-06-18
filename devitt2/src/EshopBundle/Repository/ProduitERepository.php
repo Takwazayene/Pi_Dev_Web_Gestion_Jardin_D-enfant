@@ -10,4 +10,71 @@ namespace EshopBundle\Repository;
  */
 class ProduitERepository extends \Doctrine\ORM\EntityRepository
 {
+    public function checkIfProductExistInLigneCommande($val)
+    {
+       $arr= $this->getEntityManager()
+            ->createQuery(
+                'SELECT p
+                FROM EshopBundle:ProduitE p
+                WHERE p.id = :str'
+            )
+            ->setParameter('str', $val)
+            ->getResult();
+
+       if(empty($arr))
+           return true;
+
+       return false;
+    }
+    /*************************************/
+    public  function getPrixProduitById($val){
+        $arr= $this->getEntityManager()
+            ->createQuery(
+                'SELECT p
+                FROM EshopBundle:ProduitE p
+                WHERE p.id = :str'
+            )
+            ->setParameter('str', $val)->setMaxResults(1)
+
+            ->getResult();
+
+        $val=$arr[0];
+        return $val->getPrix();
+    }
+    /*********************************/
+    public function deleteProdTaw($val)
+    {
+        $this->getEntityManager()
+            ->createQuery(
+                'delete EshopBundle:ProduitE p 
+                
+                WHERE p.id = :str')
+
+            ->setParameter('str', $val)->execute();
+    }
+    /************************************/
+    public function getBoth_Ligne_Product()
+    {
+        $arr= $this->getEntityManager()
+            ->createQuery(
+                ' SELECT a FROM  EshopBundle:ProduitE a JOIN a.user u ORDER BY u.name ASC'
+            )
+            ->setParameter('str', $val)->setMaxResults(1)
+
+            ->getResult();
+
+
+    }
+    /****************************************/
+    public function getNbDesProduits()
+    {
+        $arr=$this->getEntityManager()
+            ->createQuery(
+                ' SELECT count(a.id) FROM  EshopBundle:ProduitE a'
+            )->getSingleScalarResult();
+
+
+        return $arr;
+
+    }
 }
